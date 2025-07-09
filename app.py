@@ -6,7 +6,7 @@ import os
 
 # Load OpenAI key from .env
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = os.getenv("GOOGLE_API_KEY")
 
 st.set_page_config(page_title="AI Medical Assistant", page_icon="🧬", layout="wide")
 st.title("🧬 AI Medical Assistant")
